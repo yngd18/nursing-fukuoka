@@ -1051,7 +1051,12 @@ h4 {
   .wrapper {
     padding-inline: 16px;
   }
-
+  
+/* ローディング */
+  .loader .txt {
+  font-size: 20px;
+}
+  
   /* タイトル */
   .title {
     font-size: 2.4rem;
@@ -1574,5 +1579,6 @@ slick
     width: 100%;
     border-left: 1px solid #ccc;
   }
+
 
 }
