@@ -156,7 +156,7 @@ section {
 
 .loader img,
 .loader .txt {
-    display: none;
+  display: none;
 }
 
 
@@ -185,7 +185,7 @@ section {
   display: none;
 }
   */
- 
+
 
 /* ----------------------------------
 header
@@ -705,6 +705,10 @@ footer p {
   margin-bottom: 50px;
 }
 
+.event-text {
+  line-height: 2;
+}
+
 .event-info {
   display: flex;
   flex-wrap: wrap;
@@ -756,6 +760,11 @@ footer p {
   padding-right: 35px;
   color: #388D78;
   transition: all 0.5s;
+}
+
+.right-btn-none , .left-btn-none{
+  opacity: 0;
+  visibility: hidden;
 }
 
 .right-btn::after {
@@ -833,7 +842,8 @@ footer p {
 
 /* お知らせ詳細ページ3 */
 .bd-text p {
-margin-bottom: 16px;
+  margin-bottom: 16px;
+  line-height: 2;
 }
 
 .bd-text p:last-of-type {
@@ -1051,12 +1061,12 @@ h4 {
   .wrapper {
     padding-inline: 16px;
   }
-  
-/* ローディング */
+
+  /* ローディング */
   .loader .txt {
-  font-size: 20px;
-}
-  
+    font-size: 20px;
+  }
+
   /* タイトル */
   .title {
     font-size: 2.4rem;
@@ -1429,6 +1439,8 @@ slick
   /* ----------------------------------
 施設案内
 ーーーーーーーーーーーーーーーーーーーーーーーー */
+
+
   .guidance {
     margin-bottom: 0px;
     text-align: left;
@@ -1493,10 +1505,11 @@ slick
     margin-bottom: 80px;
   }
 
-.event-title {
-  margin-bottom: 40px;
-  font-size: 20px;
-}
+  .event-title {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
 
   .event-info {
     flex-direction: column;
@@ -1521,13 +1534,13 @@ slick
     position: relative;
   }
 
-.left-btn {
-  padding-left: 20px;
-}
+  .left-btn {
+    padding-left: 20px;
+  }
 
   .right-btn {
-  padding-right: 20px;
-}
+    padding-right: 20px;
+  }
 
   .left-btn::after {
     top: 52%;
@@ -1542,18 +1555,21 @@ slick
 
 
   /* お知らせ詳細ページ３ */
+
+
+
   .bd-flyer {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 
-.bd-peaple {
-  width: 100%;
-  margin-bottom: 20px;
-}
+  .bd-peaple {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-.bd-jun {
-  width: 100%;
-}
+  .bd-jun {
+    width: 100%;
+  }
 
 
   /* ---------------------------
@@ -1579,6 +1595,5 @@ slick
     width: 100%;
     border-left: 1px solid #ccc;
   }
-
 
 }
